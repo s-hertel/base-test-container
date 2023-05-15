@@ -74,6 +74,11 @@ class Pip:
             setuptools='59.6.0',  # 59.7.0 requires Python 3.7+
             wheel=None,
         ),
+        '3.12': dict(
+            pip='23.1.2',
+            setuptools='67.7.2',
+            wheel=None,
+        ),
     }
 
     def __init__(self, python: Python) -> None:
